@@ -1,0 +1,259 @@
+/* Wireframe module styles (owner: wireframe). Tokens only (styles/tokens.css). */
+
+.wf {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.wf.is-disabled {
+  opacity: 0.85;
+}
+
+.wf-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 0;
+}
+
+.wf-col {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.wf-grow {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.wf-label {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.wf-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.wf-fill > .wc-canvas-text {
+  height: 100%;
+}
+
+.wf-link .wc-canvas-text {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+.wf-check {
+  display: grid;
+  place-items: center;
+  flex: none;
+  box-sizing: border-box;
+}
+
+.wf-caret {
+  width: 2px;
+  height: 60%;
+  flex: none;
+  animation: wf-blink 1s steps(1) infinite;
+}
+
+@keyframes wf-blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.wf-unknown {
+  padding: 4px 8px;
+  font-size: var(--wc-font-size-sm);
+  color: var(--wc-fg-subtler);
+  border: 2px dashed var(--wc-border-chrome);
+}
+
+/* ------------------------------------------------------------- frames ------------------ */
+
+.wf-frame {
+  position: absolute;
+  inset: 0;
+}
+
+.wf-frame__name {
+  position: absolute;
+  left: 0;
+  bottom: 100%;
+  margin-bottom: 4px;
+  max-width: 100%;
+  min-width: 48px;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--wc-fg-subtler);
+  white-space: nowrap;
+}
+
+.wf-frame__name .wc-canvas-text {
+  height: auto;
+}
+
+.wf-frame__name.is-editing {
+  color: var(--wc-fg-base);
+}
+
+/* ------------------------------------------------------------- annotation -------------- */
+
+.wf-annotation {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.wf-annotation__badge {
+  flex: none;
+  display: grid;
+  place-items: center;
+  min-width: 22px;
+  height: 22px;
+  padding: 0 4px;
+  border-radius: 11px;
+  font-size: 12px;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+
+.wf-annotation__text {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+/* ------------------------------------------------------------- launcher panels --------- */
+
+.wf-panel {
+  width: 280px;
+}
+
+.wf-list {
+  max-height: 360px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.wf-list .wc-menu-item {
+  width: 100%;
+}
+
+.wf-digit {
+  flex: none;
+  width: 16px;
+  text-align: center;
+  font-size: var(--wc-font-size-xs);
+  color: var(--wc-fg-subtler);
+}
+
+.wf-device {
+  display: block;
+  margin-left: auto;
+  font-size: var(--wc-font-size-xs);
+  color: var(--wc-fg-subtler);
+}
+
+/* ------------------------------------------------------------- context bar ------------- */
+
+.wf-seg {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.wf-seg-btn {
+  min-width: 26px;
+  height: 26px;
+  padding: 0 6px;
+  border: none;
+  border-radius: var(--wc-radius-sm);
+  background: transparent;
+  color: var(--wc-fg-icon);
+  font: inherit;
+  font-size: var(--wc-font-size-sm);
+  font-weight: var(--wc-font-weight-medium);
+  cursor: pointer;
+}
+
+.wf-seg-btn:hover {
+  background: var(--wc-bg-hover);
+}
+
+.wf-seg-btn.is-active {
+  background: var(--wc-bg-selected);
+  color: var(--wc-fg-base);
+}
+
+.wf-pop {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 8px;
+  min-width: 200px;
+}
+
+.wf-pop__row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.wf-field {
+  flex: 1 1 0;
+  min-width: 0;
+  height: 28px;
+  padding: 0 8px;
+  border: 1px solid var(--wc-border-input);
+  border-radius: var(--wc-radius-sm);
+  background: var(--wc-bg-base);
+  color: var(--wc-fg-base);
+  font: inherit;
+  font-size: var(--wc-font-size-sm);
+}
+
+.wf-field:focus {
+  outline: 2px solid var(--wc-focus-ring);
+  outline-offset: -1px;
+}
+
+.wf-range {
+  width: 100%;
+}
+
+.wf-icon-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2px;
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.wf-icon-cell {
+  display: grid;
+  place-items: center;
+  height: 32px;
+  border: none;
+  border-radius: var(--wc-radius-sm);
+  background: transparent;
+  color: var(--wc-fg-icon);
+  cursor: pointer;
+}
+
+.wf-icon-cell:hover,
+.wf-icon-cell.is-active {
+  background: var(--wc-bg-menu-hover);
+  color: var(--wc-fg-base);
+}

@@ -1,0 +1,33 @@
+{
+  "commands": {
+    "marker": "Marker",
+    "highlighter": "Highlighter",
+    "eraser": "Eraser",
+    "selector": "Selector",
+    "exit": "Exit freehand",
+    "toggleThickness": "Thin / thick marker",
+    "detectShapes": "Detect shapes",
+    "penOptions": "Pen options"
+  },
+  "tools": {
+    "freehand": "Freehand",
+    "thin": "Thin",
+    "thick": "Thick",
+    "markerThin": "Marker (thin)",
+    "markerThick": "Marker (thick)",
+    "highlighter": "Highlighter",
+    "eraser": "Eraser"
+  },
+  "keywords": {
+    "marker": "pen, draw, sketch, freehand, pencil, marker",
+    "highlighter": "highlight, marker, freehand",
+    "eraser": "erase, rubber, delete, freehand"
+  },
+  "contextBar": {
+    "color": "Pen color"
+  },
+  "panel": {
+    "title": "Pen options",
+    "color": "Color"
+  }
+}

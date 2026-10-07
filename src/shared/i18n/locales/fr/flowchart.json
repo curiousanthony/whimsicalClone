@@ -1,0 +1,88 @@
+{
+  "commands": {
+    "shapesMenu": "",
+    "rectangle": "",
+    "pill": "",
+    "oval": "",
+    "diamond": "",
+    "hexagon": "",
+    "parallelogram": "",
+    "parallelogramFlipped": "",
+    "trapezoid": "",
+    "triangle": "",
+    "cylinder": "",
+    "line": "",
+    "bracket": "",
+    "star": "",
+    "cloud": "",
+    "actor": "",
+    "cross": "",
+    "layoutVertical": "",
+    "layoutHorizontal": ""
+  },
+  "keywords": {
+    "rectangle": "",
+    "pill": "",
+    "oval": "",
+    "diamond": "",
+    "parallelogram": "",
+    "parallelogramFlipped": "",
+    "trapezoid": "",
+    "triangle": "",
+    "hexagon": "",
+    "cylinder": "",
+    "line": "",
+    "bracket": "",
+    "star": "",
+    "cloud": "",
+    "actor": "",
+    "cross": ""
+  },
+  "shapesMenu": {
+    "title": "",
+    "search": "",
+    "noResults": ""
+  },
+  "contextBar": {
+    "shape": "",
+    "color": "",
+    "textSize": "",
+    "textAlign": "",
+    "icon": "",
+    "removeIcon": "",
+    "solidLine": "",
+    "dashedLine": ""
+  },
+  "fillStyle": {
+    "fill": "",
+    "border": "",
+    "dashed": "",
+    "none": ""
+  },
+  "textSize": {
+    "xs": "",
+    "s": "",
+    "m": "",
+    "l": "",
+    "xl": "",
+    "xxl": ""
+  },
+  "align": {
+    "left": "",
+    "center": "",
+    "right": ""
+  },
+  "verticalAlign": {
+    "top": "",
+    "middle": "",
+    "bottom": ""
+  },
+  "iconPlacement": {
+    "top": "",
+    "left": "",
+    "right": ""
+  },
+  "notify": {
+    "layoutNeedsConnected": ""
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "commands": {
+    "shapesMenu": "Diagram shapes",
+    "rectangle": "Rectangle",
+    "pill": "Pill",
+    "oval": "Oval",
+    "diamond": "Diamond",
+    "hexagon": "Hexagon",
+    "parallelogram": "Parallelogram",
+    "parallelogramFlipped": "Flipped parallelogram",
+    "trapezoid": "Trapezoid",
+    "triangle": "Triangle",
+    "cylinder": "Cylinder",
+    "line": "Line",
+    "bracket": "Bracket",
+    "star": "Star",
+    "cloud": "Cloud",
+    "actor": "Sequence diagram actor",
+    "cross": "Cross",
+    "layoutVertical": "Lay out vertically",
+    "layoutHorizontal": "Lay out horizontally"
+  },
+  "keywords": {
+    "rectangle": "square, box, process, step, rounded",
+    "pill": "stadium, terminator, start, end, capsule",
+    "oval": "circle, ellipse, round, start, end",
+    "diamond": "decision, rhombus, condition, if, branch",
+    "parallelogram": "input, output, data, io",
+    "parallelogramFlipped": "input, output, data, io, slanted",
+    "trapezoid": "manual operation, trapeze",
+    "triangle": "warning, delta, merge",
+    "hexagon": "preparation, prepare, six sides",
+    "cylinder": "database, storage, data store, db",
+    "line": "divider, separator, rule, straight",
+    "bracket": "brace, group, annotate, curly",
+    "star": "favorite, rating, highlight",
+    "cloud": "internet, network, cloud storage, thought",
+    "actor": "person, user, stick figure, sequence, uml",
+    "cross": "x, reject, no, cancel, close"
+  },
+  "shapesMenu": {
+    "title": "Diagram shapes",
+    "search": "Search shapes",
+    "noResults": "No shapes found"
+  },
+  "contextBar": {
+    "shape": "Change shape",
+    "color": "Color",
+    "textSize": "Text size",
+    "textAlign": "Text alignment",
+    "icon": "Icon",
+    "removeIcon": "Remove icon",
+    "solidLine": "Solid line",
+    "dashedLine": "Dashed line"
+  },
+  "fillStyle": {
+    "fill": "Solid fill",
+    "border": "Border with light fill",
+    "dashed": "Dashed border",
+    "none": "Border only"
+  },
+  "textSize": {
+    "xs": "Extra small",
+    "s": "Small",
+    "m": "Medium",
+    "l": "Large",
+    "xl": "Extra large",
+    "xxl": "Huge"
+  },
+  "align": {
+    "left": "Align left",
+    "center": "Align center",
+    "right": "Align right"
+  },
+  "verticalAlign": {
+    "top": "Align top",
+    "middle": "Align middle",
+    "bottom": "Align bottom"
+  },
+  "iconPlacement": {
+    "top": "Icon above text",
+    "left": "Icon left of text",
+    "right": "Icon right of text"
+  },
+  "notify": {
+    "layoutNeedsConnected": "Select two or more connected objects to lay them out."
+  }
+}

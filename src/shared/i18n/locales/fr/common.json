@@ -1,0 +1,115 @@
+{
+  "app": {
+    "name": ""
+  },
+  "fileKinds": {
+    "board": "",
+    "flowchart": "",
+    "mindmap": "",
+    "wireframe": "",
+    "draw": "",
+    "doc": "",
+    "folder": ""
+  },
+  "newFile": {
+    "board": "",
+    "flowchart": "",
+    "mindmap": "",
+    "wireframe": "",
+    "draw": "",
+    "doc": "",
+    "folder": ""
+  },
+  "actions": {
+    "ok": "",
+    "cancel": "",
+    "save": "",
+    "delete": "",
+    "rename": "",
+    "duplicate": "",
+    "close": "",
+    "open": "",
+    "more": "",
+    "done": "",
+    "back": "",
+    "search": ""
+  },
+  "errors": {
+    "NO_WORKSPACE": "",
+    "OUTSIDE_WORKSPACE": "",
+    "NOT_FOUND": "",
+    "ALREADY_EXISTS": "",
+    "CONFLICT": "",
+    "INVALID_NAME": "",
+    "IO_ERROR": "",
+    "INVALID_FILE": "",
+    "NEWER_VERSION": ""
+  },
+  "keys": {
+    "Click": "",
+    "DoubleClick": "",
+    "Drag": "",
+    "Scroll": "",
+    "Hover": "",
+    "Space": "",
+    "Escape": "",
+    "Enter": "",
+    "hold": ""
+  },
+  "shortcutGroups": {
+    "general": "",
+    "file": "",
+    "tabs": "",
+    "zoom": "",
+    "selection": "",
+    "arrange": "",
+    "edit": "",
+    "text": "",
+    "tools": "",
+    "diagram": "",
+    "quickAdd": "",
+    "connectors": "",
+    "sticky": "",
+    "wireframe": "",
+    "freehand": "",
+    "mindmap": "",
+    "docs": "",
+    "docsBlocks": "",
+    "docsTables": "",
+    "markdown": "",
+    "folder": ""
+  },
+  "shortcutHelp": {
+    "extension": ""
+  },
+  "colors": {
+    "white": "",
+    "smoke": "",
+    "gray": "",
+    "slate": "",
+    "purple": "",
+    "violet": "",
+    "blue": "",
+    "green": "",
+    "darkGreen": "",
+    "yellow": "",
+    "orange": "",
+    "red": "",
+    "crimson": "",
+    "pink": "",
+    "brown": "",
+    "custom": "",
+    "addCustom": ""
+  },
+  "textSizes": {
+    "xs": "",
+    "s": "",
+    "m": "",
+    "l": "",
+    "xl": "",
+    "xxl": ""
+  },
+  "stub": {
+    "notImplemented": ""
+  }
+}

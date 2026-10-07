@@ -1,0 +1,205 @@
+{
+  "commands": {
+    "paragraph": "Paragraph",
+    "bold": "Bold",
+    "italic": "Italic",
+    "strike": "Strikethrough",
+    "inlineCode": "Inline code",
+    "highlight": "Highlight",
+    "link": "Add link",
+    "mention": "Workspace link",
+    "changeBlockType": "Change block type",
+    "indent": "Increase indent",
+    "outdent": "Decrease indent",
+    "codeLanguage": "Code block language (in a code block)",
+    "selectMore": "Select line, block, then doc",
+    "copyBlockLink": "Copy link to block",
+    "copyAsMarkdown": "Copy as Markdown",
+    "textSizeUp": "Larger text",
+    "textSizeDown": "Smaller text",
+    "openNested": "Open nested file",
+    "goToParent": "Go to parent file",
+    "focusMode": "Focus mode",
+    "expandBlock": "Expand block",
+    "collapseBlock": "Collapse block",
+    "toggleDescendants": "Toggle block and descendants",
+    "toggleSiblings": "Toggle block and siblings",
+    "toggleAll": "Toggle block, siblings and descendants",
+    "tableInsertRow": "Insert row",
+    "tableInsertColumn": "Insert column",
+    "tableRemoveRow": "Remove row",
+    "tableRemoveColumn": "Remove column",
+    "mdHeading1": "Heading 1",
+    "mdHeading2": "Heading 2",
+    "mdHeading3": "Heading 3",
+    "mdBulletList": "Bulleted list",
+    "mdNumberedList": "Numbered list",
+    "mdChecklist": "Checklist",
+    "mdQuote": "Quote",
+    "mdLineDivider": "Line divider",
+    "mdSectionDivider": "Section divider",
+    "mdCodeBlock": "Code block",
+    "mdEmoji": "Emoji"
+  },
+  "blockMenu": {
+    "paragraph": "Paragraph",
+    "heading1": "Heading 1",
+    "heading2": "Heading 2",
+    "heading3": "Heading 3",
+    "bulletList": "Bulleted list",
+    "numberedList": "Numbered list",
+    "checklist": "Checklist",
+    "toggleList": "Toggle list",
+    "table": "Table",
+    "codeBlock": "Code block",
+    "callout": "Callout",
+    "quote": "Quote",
+    "unquote": "Unquote",
+    "nestedDoc": "Nested doc",
+    "nestedBoard": "Nested board",
+    "nestedFolder": "Nested folder",
+    "workspaceLink": "Workspace link",
+    "link": "Link",
+    "embed": "Embed",
+    "sectionDivider": "Section divider",
+    "lineDivider": "Line divider",
+    "emoji": "Emoji"
+  },
+  "placeholder": {
+    "empty": "Type / for blocks, @ to link files"
+  },
+  "view": {
+    "textSizeAndLayout": "Text size and layout",
+    "small": "Small",
+    "medium": "Medium",
+    "large": "Large",
+    "narrow": "Narrow",
+    "wide": "Wide",
+    "blocks_one": "{{count}} block",
+    "blocks_other": "{{count}} blocks",
+    "words_one": "{{count}} word",
+    "words_other": "{{count}} words",
+    "textSize": "Text size",
+    "width": "Width"
+  },
+  "toolbar": {
+    "bold": "Bold",
+    "italic": "Italic",
+    "strike": "Strikethrough",
+    "code": "Inline code",
+    "highlight": "Highlight",
+    "link": "Link",
+    "blockType": "Turn into",
+    "moreFormatting": "More formatting",
+    "comment": "Comment"
+  },
+  "link": {
+    "placeholder": "Paste or type a link",
+    "apply": "Apply",
+    "remove": "Remove link",
+    "open": "Open link",
+    "fileLinks": "Workspace files",
+    "noFiles": "No matching files",
+    "edit": "Edit link",
+    "invalid": "Enter a valid link"
+  },
+  "callout": {
+    "changeColor": "Callout color",
+    "changeIcon": "Callout icon",
+    "presets": "Presets",
+    "remove": "Remove callout",
+    "presetInfo": "Info",
+    "presetError": "Error",
+    "presetTip": "Tip",
+    "presetWarning": "Warning",
+    "colors": {
+      "blue": "Blue",
+      "red": "Red",
+      "pale-red": "Pale red",
+      "orange": "Orange",
+      "yellow": "Yellow",
+      "brown": "Brown",
+      "green": "Green",
+      "dark-green": "Dark green",
+      "purple": "Purple",
+      "dark-purple": "Dark purple",
+      "whimsy-blue": "Whimsy blue",
+      "silver": "Silver"
+    }
+  },
+  "code": {
+    "language": "Code language",
+    "auto": "Auto-detect",
+    "plain": "Plain text",
+    "searchLanguage": "Search languages"
+  },
+  "toc": {
+    "title": "Table of contents",
+    "show": "Show table of contents",
+    "hide": "Hide table of contents",
+    "empty": "Add headings to build an outline"
+  },
+  "focus": {
+    "title": "Focus mode",
+    "fullScreen": "Full screen",
+    "paragraph": "Paragraph focus",
+    "typewriter": "Typewriter mode",
+    "exitHint": "Press Esc to exit full screen"
+  },
+  "embed": {
+    "urlPlaceholder": "Paste a link to embed (YouTube, Figma, Loom...)",
+    "invalid": "Enter a valid http(s) link",
+    "open": "Open in browser",
+    "boardMissing": "Board not found",
+    "openBoard": "Open board",
+    "offline": "Embeds show as link cards in the desktop app",
+    "insert": "Embed",
+    "title": "Embedded link"
+  },
+  "handle": {
+    "addBlock": "Add block",
+    "dragBlock": "Drag to move, click for options",
+    "delete": "Delete block",
+    "duplicate": "Duplicate block",
+    "turnInto": "Turn into"
+  },
+  "mention": {
+    "title": "Link to a file",
+    "noResults": "No matching files"
+  },
+  "table": {
+    "insertRowAfter": "Insert row",
+    "insertColumnAfter": "Insert column",
+    "deleteRow": "Remove row",
+    "deleteColumn": "Remove column",
+    "deleteTable": "Delete table",
+    "toggleHeader": "Header row",
+    "alignLeft": "Align left",
+    "alignCenter": "Align center",
+    "alignRight": "Align right"
+  },
+  "raw": {
+    "html": "HTML (kept as is)",
+    "frontmatter": "Front matter",
+    "definition": "Link definition"
+  },
+  "copy": {
+    "markdownCopied": "Copied as Markdown",
+    "blockLinkCopied": "Link to block copied",
+    "nothingToCopy": "Nothing to copy"
+  },
+  "image": {
+    "importFailed": "Could not import the image"
+  },
+  "nested": {
+    "created": "Created {{name}}",
+    "failed": "Could not create the file",
+    "openedNothing": "No nested file at the cursor",
+    "noParent": "This file is not nested under a doc"
+  },
+  "collapse": {
+    "toggle": "Collapse or expand section",
+    "collapse": "Collapse",
+    "expand": "Expand"
+  }
+}

@@ -1,0 +1,220 @@
+/* Global base styles (owner: shell module). Module styles live next to their components. */
+
+/* File-kind icon colours (create menu, sidebar, tabs): Whimsical board purple, doc blue,
+   and one hue per canvas preset of the clone. */
+:root {
+  --wc-kind-board-icon: #8013d9;
+  --wc-kind-flowchart-icon: #665bf3;
+  --wc-kind-mindmap-icon: #be36d3;
+  --wc-kind-wireframe-icon: #26aea0;
+  --wc-kind-draw-icon: #e58138;
+  --wc-kind-doc-icon: #2484d4;
+}
+
+:root[data-theme='dark'] {
+  --wc-kind-board-icon: #b182f4;
+  --wc-kind-flowchart-icon: #8d92f9;
+  --wc-kind-mindmap-icon: #d173e0;
+  --wc-kind-wireframe-icon: #30b5a6;
+  --wc-kind-draw-icon: #eaa44a;
+  --wc-kind-doc-icon: #62a4e3;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: var(--wc-font-sans);
+  font-size: var(--wc-font-size-md);
+  line-height: var(--wc-line-height-ui);
+  color: var(--wc-fg-base);
+  background: var(--wc-bg-page);
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+  user-select: none;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--wc-focus-ring);
+  outline-offset: 1px;
+}
+
+::selection {
+  background: var(--wc-text-selection);
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--wc-space-3);
+  height: 100%;
+  padding: var(--wc-space-6);
+  text-align: center;
+}
+
+.welcome h1 {
+  margin: 0;
+  font-size: var(--wc-font-size-2xl);
+  font-weight: var(--wc-font-weight-bold);
+}
+
+.welcome p {
+  max-width: 420px;
+  margin: 0;
+  color: var(--wc-fg-secondary);
+}
+
+.welcome__logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  margin-bottom: var(--wc-space-2);
+  border-radius: 16px;
+  background: var(--wc-accent);
+  color: var(--wc-fg-on-accent);
+}
+
+.welcome__recent {
+  width: min(460px, 100%);
+  margin-top: var(--wc-space-5);
+  text-align: left;
+}
+
+.welcome__recent h2 {
+  margin: 0 0 var(--wc-space-2);
+  color: var(--wc-fg-subtler);
+  font-size: var(--wc-font-size-sm);
+  font-weight: var(--wc-font-weight-medium);
+}
+
+.welcome__recent ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.welcome__recent button {
+  display: flex;
+  align-items: center;
+  gap: var(--wc-space-2);
+  width: 100%;
+  height: 36px;
+  padding: 0 var(--wc-space-2);
+  border: 0;
+  border-radius: var(--wc-radius-md);
+  background: transparent;
+  color: var(--wc-fg-icon);
+  text-align: left;
+}
+
+.welcome__recent button:hover {
+  background: var(--wc-bg-hover);
+}
+
+.welcome__recent-name {
+  color: var(--wc-fg-base);
+  font-weight: var(--wc-font-weight-medium);
+  white-space: nowrap;
+}
+
+.welcome__recent-path {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  color: var(--wc-fg-subtlest);
+  font-size: var(--wc-font-size-sm);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  direction: rtl;
+  text-align: right;
+}
+
+.welcome__hint {
+  color: var(--wc-fg-subtlest);
+  font-size: var(--wc-font-size-sm);
+}
+
+.button-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--wc-space-2);
+  padding: var(--wc-space-2) var(--wc-space-4);
+  border: 0;
+  border-radius: var(--wc-radius-md);
+  background: var(--wc-accent);
+  color: var(--wc-fg-on-accent);
+  font-weight: var(--wc-font-weight-medium);
+  cursor: default;
+}
+
+.button-primary:hover {
+  background: var(--wc-accent-hover);
+}
+
+.stub-editor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: var(--wc-fg-subtler);
+  background: var(--wc-bg-canvas);
+}
+
+input,
+textarea,
+[contenteditable='true'] {
+  user-select: text;
+}
+
+/* Print / PDF: only the active document, never the app chrome. */
+@media print {
+  html,
+  body,
+  #root {
+    height: auto;
+    overflow: visible;
+    background: #ffffff;
+  }
+
+  .shell-tabbar,
+  .shell-sidebar,
+  .shell-titlebar,
+  .shell-search,
+  .shell-toasts,
+  .shell-banner,
+  .wc-modal-scrim,
+  .wc-tooltip,
+  .wc-menu {
+    display: none !important;
+  }
+
+  .shell,
+  .shell-body,
+  .shell-main,
+  .shell-editor-area,
+  .shell-tab-pane:not([hidden]) {
+    position: static !important;
+    display: block !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+}

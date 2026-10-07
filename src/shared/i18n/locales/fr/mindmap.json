@@ -1,0 +1,104 @@
+{
+  "commands": {
+    "addRoot": "",
+    "addChild": "",
+    "editNode": "",
+    "addSiblingAbove": "",
+    "addParent": "",
+    "selectParent": "",
+    "navigateUp": "",
+    "navigateDown": "",
+    "navigateLeft": "",
+    "navigateRight": "",
+    "toggleCollapse": "",
+    "collapse": "",
+    "expand": "",
+    "collapseAll": "",
+    "collapseSiblings": "",
+    "collapseLevel": "",
+    "deleteNode": "",
+    "duplicateNode": "",
+    "addIcon": "",
+    "addLink": "",
+    "indent": "",
+    "outdent": "",
+    "moveUp": "",
+    "moveDown": "",
+    "relayout": "",
+    "pasteAsMindmap": "",
+    "copyAsList": "",
+    "editAddSibling": "",
+    "editAddChild": "",
+    "editAddSiblingAbove": "",
+    "editLineBreak": "",
+    "editStop": ""
+  },
+  "contextBar": {
+    "horizontal": "",
+    "vertical": "",
+    "curved": "",
+    "elbow": "",
+    "lineColor": "",
+    "iconLeft": "",
+    "iconRight": "",
+    "color": "",
+    "branchColor": "",
+    "bold": "",
+    "italic": "",
+    "link": "",
+    "icon": "",
+    "sidesBoth": "",
+    "sidesRight": "",
+    "sidesLeft": "",
+    "sidesBottom": "",
+    "sidesTop": ""
+  },
+  "tooltips": {
+    "collapse": "",
+    "expand": "",
+    "collapseAll": "",
+    "expandAll": "",
+    "collapseSiblings": "",
+    "expandSiblings": "",
+    "collapseLevel": "",
+    "expandLevel": "",
+    "collapseHint": "",
+    "expandHint": ""
+  },
+  "defaults": {
+    "root": ""
+  },
+  "handles": {
+    "addChild": "",
+    "addSibling": "",
+    "addBranch": {
+      "left": "",
+      "right": "",
+      "top": "",
+      "bottom": ""
+    }
+  },
+  "placeholders": {
+    "root": ""
+  },
+  "iconPanel": {
+    "title": "",
+    "search": "",
+    "remove": "",
+    "noResults": ""
+  },
+  "linkPanel": {
+    "title": "",
+    "placeholder": "",
+    "apply": "",
+    "remove": ""
+  },
+  "notify": {
+    "nothingToPaste": "",
+    "listCopied": "",
+    "copyFailed": ""
+  },
+  "keywords": {
+    "addRoot": ""
+  }
+}

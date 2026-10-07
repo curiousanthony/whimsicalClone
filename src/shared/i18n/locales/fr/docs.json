@@ -1,0 +1,205 @@
+{
+  "commands": {
+    "paragraph": "",
+    "bold": "",
+    "italic": "",
+    "strike": "",
+    "inlineCode": "",
+    "highlight": "",
+    "link": "",
+    "mention": "",
+    "changeBlockType": "",
+    "indent": "",
+    "outdent": "",
+    "codeLanguage": "",
+    "selectMore": "",
+    "copyBlockLink": "",
+    "copyAsMarkdown": "",
+    "textSizeUp": "",
+    "textSizeDown": "",
+    "openNested": "",
+    "goToParent": "",
+    "focusMode": "",
+    "expandBlock": "",
+    "collapseBlock": "",
+    "toggleDescendants": "",
+    "toggleSiblings": "",
+    "toggleAll": "",
+    "tableInsertRow": "",
+    "tableInsertColumn": "",
+    "tableRemoveRow": "",
+    "tableRemoveColumn": "",
+    "mdHeading1": "",
+    "mdHeading2": "",
+    "mdHeading3": "",
+    "mdBulletList": "",
+    "mdNumberedList": "",
+    "mdChecklist": "",
+    "mdQuote": "",
+    "mdLineDivider": "",
+    "mdSectionDivider": "",
+    "mdCodeBlock": "",
+    "mdEmoji": ""
+  },
+  "blockMenu": {
+    "paragraph": "",
+    "heading1": "",
+    "heading2": "",
+    "heading3": "",
+    "bulletList": "",
+    "numberedList": "",
+    "checklist": "",
+    "toggleList": "",
+    "table": "",
+    "codeBlock": "",
+    "callout": "",
+    "quote": "",
+    "unquote": "",
+    "nestedDoc": "",
+    "nestedBoard": "",
+    "nestedFolder": "",
+    "workspaceLink": "",
+    "link": "",
+    "embed": "",
+    "sectionDivider": "",
+    "lineDivider": "",
+    "emoji": ""
+  },
+  "placeholder": {
+    "empty": ""
+  },
+  "view": {
+    "textSizeAndLayout": "",
+    "small": "",
+    "medium": "",
+    "large": "",
+    "narrow": "",
+    "wide": "",
+    "blocks_one": "",
+    "blocks_other": "",
+    "words_one": "",
+    "words_other": "",
+    "textSize": "",
+    "width": ""
+  },
+  "toolbar": {
+    "bold": "",
+    "italic": "",
+    "strike": "",
+    "code": "",
+    "highlight": "",
+    "link": "",
+    "blockType": "",
+    "moreFormatting": "",
+    "comment": ""
+  },
+  "link": {
+    "placeholder": "",
+    "apply": "",
+    "remove": "",
+    "open": "",
+    "fileLinks": "",
+    "noFiles": "",
+    "edit": "",
+    "invalid": ""
+  },
+  "callout": {
+    "changeColor": "",
+    "changeIcon": "",
+    "presets": "",
+    "remove": "",
+    "presetInfo": "",
+    "presetError": "",
+    "presetTip": "",
+    "presetWarning": "",
+    "colors": {
+      "blue": "",
+      "red": "",
+      "pale-red": "",
+      "orange": "",
+      "yellow": "",
+      "brown": "",
+      "green": "",
+      "dark-green": "",
+      "purple": "",
+      "dark-purple": "",
+      "whimsy-blue": "",
+      "silver": ""
+    }
+  },
+  "code": {
+    "language": "",
+    "auto": "",
+    "plain": "",
+    "searchLanguage": ""
+  },
+  "toc": {
+    "title": "",
+    "show": "",
+    "hide": "",
+    "empty": ""
+  },
+  "focus": {
+    "title": "",
+    "fullScreen": "",
+    "paragraph": "",
+    "typewriter": "",
+    "exitHint": ""
+  },
+  "embed": {
+    "urlPlaceholder": "",
+    "invalid": "",
+    "open": "",
+    "boardMissing": "",
+    "openBoard": "",
+    "offline": "",
+    "insert": "",
+    "title": ""
+  },
+  "handle": {
+    "addBlock": "",
+    "dragBlock": "",
+    "delete": "",
+    "duplicate": "",
+    "turnInto": ""
+  },
+  "mention": {
+    "title": "",
+    "noResults": ""
+  },
+  "table": {
+    "insertRowAfter": "",
+    "insertColumnAfter": "",
+    "deleteRow": "",
+    "deleteColumn": "",
+    "deleteTable": "",
+    "toggleHeader": "",
+    "alignLeft": "",
+    "alignCenter": "",
+    "alignRight": ""
+  },
+  "raw": {
+    "html": "",
+    "frontmatter": "",
+    "definition": ""
+  },
+  "copy": {
+    "markdownCopied": "",
+    "blockLinkCopied": "",
+    "nothingToCopy": ""
+  },
+  "image": {
+    "importFailed": ""
+  },
+  "nested": {
+    "created": "",
+    "failed": "",
+    "openedNothing": "",
+    "noParent": ""
+  },
+  "collapse": {
+    "toggle": "",
+    "collapse": "",
+    "expand": ""
+  }
+}

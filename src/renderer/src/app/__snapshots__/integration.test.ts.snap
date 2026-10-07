@@ -1,0 +1,7 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`shortcut bindings > only shadows app-wide commands where the SPEC says so 1`] = `
+[
+  "⌘A: docs.selectMore over edit.selectAll",
+]
+`;

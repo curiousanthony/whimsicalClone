@@ -1,0 +1,33 @@
+{
+  "commands": {
+    "marker": "",
+    "highlighter": "",
+    "eraser": "",
+    "selector": "",
+    "exit": "",
+    "toggleThickness": "",
+    "detectShapes": "",
+    "penOptions": ""
+  },
+  "tools": {
+    "freehand": "",
+    "thin": "",
+    "thick": "",
+    "markerThin": "",
+    "markerThick": "",
+    "highlighter": "",
+    "eraser": ""
+  },
+  "keywords": {
+    "marker": "",
+    "highlighter": "",
+    "eraser": ""
+  },
+  "contextBar": {
+    "color": ""
+  },
+  "panel": {
+    "title": "",
+    "color": ""
+  }
+}

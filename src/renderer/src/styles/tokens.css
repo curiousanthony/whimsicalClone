@@ -1,0 +1,197 @@
+/*
+ * Design tokens (owner: architect; shared). Values from Whimsical's app CSS (--us-*),
+ * research 07 section 6. Prefix --wc-. Light by default; dark when <html data-theme="dark">
+ * or when the system is dark and data-theme is not "light".
+ * Modules use these variables only; never hard-code UI colours.
+ */
+
+:root {
+  color-scheme: light;
+
+  /* Typography: Dinsical / Monsical (SIL OFL) if installed or bundled, then system. */
+  --wc-font-sans: 'Dinsical', -apple-system, BlinkMacSystemFont, 'SF Pro Text', system-ui, sans-serif;
+  --wc-font-mono: 'Monsical', ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Monaco, monospace;
+  --wc-font-size-xs: 11px;
+  --wc-font-size-sm: 12px;
+  --wc-font-size-md: 14px;
+  --wc-font-size-lg: 16px;
+  --wc-font-size-xl: 18px;
+  --wc-font-size-2xl: 22px;
+  --wc-font-weight-regular: 400;
+  --wc-font-weight-medium: 500;
+  --wc-font-weight-bold: 700;
+  --wc-line-height-ui: 1.4;
+
+  /* Radii & spacing */
+  --wc-radius-xs: 3px;
+  --wc-radius-sm: 4px;
+  --wc-radius-md: 6px;
+  --wc-radius-lg: 8px;
+  --wc-radius-xl: 12px;
+  --wc-space-1: 4px;
+  --wc-space-2: 8px;
+  --wc-space-3: 12px;
+  --wc-space-4: 16px;
+  --wc-space-5: 24px;
+  --wc-space-6: 32px;
+
+  /* Chrome metrics (estimates; research gap) */
+  --wc-sidebar-width: 260px;
+  --wc-titlebar-height: 44px;
+  --wc-tabbar-height: 36px;
+  --wc-toolbar-button: 36px;
+  --wc-icon-size: 18px;
+  --wc-icon-stroke: 1.75;
+
+  /* Surfaces */
+  --wc-bg-base: #ffffff;
+  --wc-bg-page: #f7f9fa;
+  --wc-bg-canvas: #f3f5f8;
+  --wc-bg-panel: #ffffff;
+  --wc-bg-raised: #ffffff;
+  --wc-bg-menu: #ffffff;
+  --wc-bg-menu-hover: #ebeff3;
+  --wc-bg-menu-selected: #e3e9ee;
+  --wc-bg-inset-1: #fbfcfc;
+  --wc-bg-inset-2: #f7f9fa;
+  --wc-bg-inset-3: #f3f5f8;
+  --wc-bg-inset-4: #eff2f5;
+  --wc-bg-inset-5: #ebeff3;
+  --wc-bg-hover: rgb(41 55 68 / 5%);
+  --wc-bg-selected: rgb(41 55 68 / 8%);
+  --wc-bg-scrim: rgb(0 0 0 / 30%);
+  --wc-bg-sidebar: #ffffff;
+  --wc-bg-titlebar: #ffffff;
+  --wc-bg-actionbar: #ffffff;
+  --wc-bg-code: #ebeff3;
+  --wc-bg-code-inline: rgb(215 223 231 / 50%);
+
+  /* Foreground */
+  --wc-fg-base: #293744;
+  --wc-fg-secondary: #50606f;
+  --wc-fg-subtle: #3a4a59;
+  --wc-fg-subtler: #8291a0;
+  --wc-fg-subtlest: #a2b0bd;
+  --wc-fg-icon: #738291;
+  --wc-fg-on-accent: #ffffff;
+  --wc-fg-accent: #8b30e4;
+  --wc-fg-link: #2484d4;
+  --wc-fg-danger: #d5475b;
+  --wc-fg-success: #26aea0;
+  --wc-fg-warning: #d58d25;
+
+  /* Borders */
+  --wc-border-chrome: #d7dfe7;
+  --wc-border-strong: rgb(41 55 68 / 32%);
+  --wc-border-base: rgb(41 55 68 / 18%);
+  --wc-border-subtle: rgb(41 55 68 / 8%);
+  --wc-border-subtler: rgb(41 55 68 / 3%);
+  --wc-border-input: #c4cfda;
+  --wc-focus-ring: #aa74f3;
+
+  /* Accent & buttons */
+  --wc-accent: #8b30e4;
+  --wc-accent-hover: #8013d9;
+  --wc-button-secondary: #ffffff;
+  --wc-button-danger: #d5475b;
+  --wc-button-danger-hover: #b1223f;
+  --wc-switch-on: #26aea0;
+
+  /* File kind colours (create menu, sidebar icons) */
+  --wc-kind-board: #8013d9;
+  --wc-kind-doc: #2484d4;
+  --wc-kind-folder: #738291;
+  --wc-kind-template: #556575;
+
+  /* Canvas interaction */
+  --wc-canvas-grid-dot: #c4cfda;
+  --wc-selection: #aa74f3;
+  --wc-selection-fill: rgb(170 116 243 / 5%);
+  --wc-handle-fill: #ffffff;
+  --wc-handle-hover: #9448ea;
+  --wc-group-outline: rgb(170 116 243 / 30%);
+  --wc-snap-guide: #b1223f;
+  --wc-connect-target: #aa74f3;
+  --wc-text-selection: rgb(36 132 212 / 14%);
+  --wc-find-match: #f8db93;
+  --wc-wire-frame: #a2b0bd;
+  --wc-wire-screen: #ffffff;
+  --wc-wire-inset: #8291a0;
+
+  /* Elevation */
+  --wc-shadow-base: 0 1px 2px -0.5px #909ba40a, 0 3px 4px -1px #909ba414, 0 6px 8px -1px #909ba414,
+    0 12px 16px -1.5px #909ba41f;
+  --wc-shadow-strong: 0 1px 2px -0.5px #909ba40a, 0 3px 4px -1px #909ba414, 0 6px 8px -1.5px #909ba414,
+    0 12px 16px -1.5px #909ba41f, 0 24px 48px -1.5px #909ba429;
+  --wc-shadow-modal: 0 10px 30px 0 #0000004d;
+
+  /* Motion */
+  --wc-duration-fast: 120ms;
+  --wc-duration-base: 200ms;
+  --wc-ease: cubic-bezier(0.2, 0, 0, 1);
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --wc-bg-base: #19232c;
+  --wc-bg-page: #0f171f;
+  --wc-bg-canvas: #0f171f;
+  --wc-bg-panel: #19232c;
+  --wc-bg-raised: #2e3c4a;
+  --wc-bg-menu: #293744;
+  --wc-bg-menu-hover: #475767;
+  --wc-bg-menu-selected: #475767;
+  --wc-bg-inset-1: #151e27;
+  --wc-bg-inset-2: #0f171f;
+  --wc-bg-inset-3: #091017;
+  --wc-bg-inset-4: #040a10;
+  --wc-bg-inset-5: #02050a;
+  --wc-bg-hover: rgb(115 130 145 / 10%);
+  --wc-bg-selected: rgb(115 130 145 / 30%);
+  --wc-bg-scrim: rgb(0 0 0 / 40%);
+  --wc-bg-sidebar: #19232c;
+  --wc-bg-titlebar: #19232c;
+  --wc-bg-actionbar: #293744;
+  --wc-bg-code: #000000;
+  --wc-bg-code-inline: rgb(0 0 0 / 40%);
+  --wc-fg-base: #ffffff;
+  --wc-fg-secondary: #b3bfcc;
+  --wc-fg-subtle: #ebeff3;
+  --wc-fg-subtler: #b3bfcc;
+  --wc-fg-subtlest: #8291a0;
+  --wc-fg-icon: #b3bfcc;
+  --wc-fg-accent: #b182f4;
+  --wc-fg-link: #62a4e3;
+  --wc-fg-warning: #eaa44a;
+  --wc-fg-success: #30b5a6;
+  --wc-border-chrome: #324150;
+  --wc-border-strong: rgb(115 130 145 / 70%);
+  --wc-border-base: rgb(115 130 145 / 50%);
+  --wc-border-subtle: rgb(115 130 145 / 30%);
+  --wc-border-subtler: rgb(115 130 145 / 15%);
+  --wc-border-input: #738291;
+  --wc-focus-ring: #b68bf5;
+  --wc-accent-hover: #9952ec;
+  --wc-button-secondary: #232f3b;
+  --wc-kind-board: #5f00a4;
+  --wc-kind-doc: #004a81;
+  --wc-kind-folder: #232f3b;
+  --wc-kind-template: #3a4a59;
+  --wc-canvas-grid-dot: #324150;
+  --wc-selection: #b68bf5;
+  --wc-selection-fill: rgb(182 139 245 / 5%);
+  --wc-handle-fill: #293744;
+  --wc-handle-hover: #b68bf5;
+  --wc-group-outline: rgb(182 139 245 / 30%);
+  --wc-snap-guide: #f86778;
+  --wc-connect-target: #b68bf5;
+  --wc-text-selection: rgb(98 164 227 / 24%);
+  --wc-find-match: #7b5f00;
+  --wc-wire-frame: #3a4a59;
+  --wc-wire-screen: #232f3b;
+  --wc-wire-inset: #475767;
+  --wc-shadow-base: 0 1px 2px -0.5px #0f12150a, 0 3px 4px -1px #0f121514, 0 6px 8px -1.5px #0f121514,
+    0 12px 16px -1.5px #0f12151f;
+  --wc-shadow-strong: 0 1px 2px -0.5px #0f12150a, 0 3px 4px -1px #0f121514, 0 6px 8px -1.5px #0f121514,
+    0 12px 16px -1.5px #0f12151f, 0 24px 48px -1.5px #0f121529, 0 28px 52px -2px #0f12153d;
+}

@@ -1,0 +1,25 @@
+appId: dev.local.whimsicalclone
+productName: Whimsical Clone
+directories:
+  output: release
+  buildResources: build
+files:
+  - out/**/*
+  - package.json
+  - '!**/*.map'
+asarUnpack:
+  - resources/**
+mac:
+  target:
+    - dmg
+    - zip
+  category: public.app-category.productivity
+  darkModeSupport: true
+  hardenedRuntime: true
+  entitlementsInherit: build/entitlements.mac.plist
+  identity: null
+  extendInfo:
+    NSDocumentsFolderUsageDescription: Whimsical Clone stores your boards and docs in the folder you choose.
+dmg:
+  artifactName: ${productName}-${version}-${arch}.${ext}
+npmRebuild: false

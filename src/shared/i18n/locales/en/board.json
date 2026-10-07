@@ -1,0 +1,102 @@
+{
+  "commands": {
+    "sticky": "Sticky note",
+    "text": "Text",
+    "image": "Image",
+    "link": "Link",
+    "icon": "Icon",
+    "section": "Section",
+    "table": "Table",
+    "codeBlock": "Code block",
+    "distributeGrid": "Distribute as grid",
+    "pasteAsStickies": "Paste as sticky notes"
+  },
+  "keywords": {
+    "sticky": "note, post-it, memo, sticky note",
+    "text": "text, label, title, heading",
+    "image": "image, picture, photo, png, jpg, upload",
+    "link": "link, url, bookmark, web",
+    "icon": "icon, symbol, glyph",
+    "section": "section, frame, group, area, container",
+    "table": "table, grid, spreadsheet, rows, columns",
+    "codeBlock": "code, snippet, programming, source"
+  },
+  "textSize": {
+    "xs": "Extra small",
+    "s": "Small",
+    "m": "Medium",
+    "l": "Large",
+    "xl": "Extra large",
+    "xxl": "Huge"
+  },
+  "align": {
+    "left": "Align text left",
+    "center": "Center text",
+    "right": "Align text right"
+  },
+  "contextBar": {
+    "color": "Color",
+    "textSize": "Text size",
+    "textAlign": "Text alignment"
+  },
+  "sticky": {
+    "placeholder": "Type something"
+  },
+  "text": {
+    "placeholder": "Type something"
+  },
+  "image": {
+    "pick": "Choose an image",
+    "caption": "Caption",
+    "showCaption": "Show caption",
+    "captionPlaceholder": "Add a caption",
+    "alt": "Image",
+    "rotate": "Rotate 90°"
+  },
+  "section": {
+    "defaultName": "Section",
+    "namePlaceholder": "Section name",
+    "solid": "Solid",
+    "outline": "Outline",
+    "clip": "Clip content",
+    "rename": "Rename section",
+    "fill": "Fill style"
+  },
+  "table": {
+    "headerRow": "Header row",
+    "striped": "Alternating rows",
+    "addRow": "Add row",
+    "addColumn": "Add column",
+    "removeRow": "Remove row",
+    "removeColumn": "Remove column"
+  },
+  "link": {
+    "placeholder": "Paste or type a link",
+    "open": "Open link",
+    "edit": "Edit link",
+    "card": "Card",
+    "compact": "Compact",
+    "display": "Display",
+    "untitled": "Link",
+    "fileLinkTitle": "File: {{name}}"
+  },
+  "code": {
+    "language": "Language",
+    "auto": "Auto-detect",
+    "placeholder": "Write some code"
+  },
+  "icon": {
+    "change": "Change icon"
+  },
+  "iconPicker": {
+    "search": "Search icons",
+    "noResults": "No icons found",
+    "title": "Icons"
+  },
+  "notify": {
+    "imageImportFailed": "Could not import the image",
+    "nothingToPaste": "The clipboard has no text to paste as sticky notes",
+    "clipboardDenied": "Clipboard access was denied",
+    "linkOpenFailed": "Could not open the link"
+  }
+}

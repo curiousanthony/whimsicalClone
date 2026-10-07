@@ -1,0 +1,78 @@
+/* Flowchart module chrome (shapes menu, icon picker). Tokens only. */
+
+.wc-fc-panel {
+  width: 300px;
+}
+
+.wc-fc-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+  max-height: 340px;
+  overflow-y: auto;
+}
+
+.wc-fc-tile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 78px;
+  padding: 8px 4px 6px;
+  border: none;
+  border-radius: var(--wc-radius-md);
+  background: transparent;
+  color: var(--wc-fg-icon);
+  font: inherit;
+  cursor: pointer;
+}
+
+.wc-fc-tile:hover,
+.wc-fc-tile.is-active {
+  background: var(--wc-bg-menu-hover);
+}
+
+.wc-fc-tile__art {
+  position: relative;
+  display: block;
+  flex: none;
+}
+
+.wc-fc-tile__label {
+  font-size: var(--wc-font-size-sm);
+  color: var(--wc-fg-base);
+  text-align: center;
+  line-height: 1.2;
+}
+
+.wc-fc-tile__kbd {
+  position: absolute;
+  top: 4px;
+  right: 6px;
+  font-family: var(--wc-font-sans);
+  font-size: var(--wc-font-size-xs);
+  color: var(--wc-fg-subtler);
+}
+
+.wc-fc-iconpicker {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 6px;
+  width: 236px;
+}
+
+.wc-fc-iconpicker__placement {
+  display: flex;
+  gap: 2px;
+}
+
+.wc-fc-iconpicker__grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 2px;
+  max-height: 180px;
+  overflow-y: auto;
+}

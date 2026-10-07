@@ -1,0 +1,115 @@
+{
+  "app": {
+    "name": "Whimsical Clone"
+  },
+  "fileKinds": {
+    "board": "Board",
+    "flowchart": "Flowchart",
+    "mindmap": "Mind map",
+    "wireframe": "Wireframe",
+    "draw": "Drawing",
+    "doc": "Doc",
+    "folder": "Folder"
+  },
+  "newFile": {
+    "board": "Untitled board",
+    "flowchart": "Untitled flowchart",
+    "mindmap": "Untitled mind map",
+    "wireframe": "Untitled wireframe",
+    "draw": "Untitled drawing",
+    "doc": "Untitled doc",
+    "folder": "Untitled folder"
+  },
+  "actions": {
+    "ok": "OK",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "rename": "Rename",
+    "duplicate": "Duplicate",
+    "close": "Close",
+    "open": "Open",
+    "more": "More",
+    "done": "Done",
+    "back": "Back",
+    "search": "Search"
+  },
+  "errors": {
+    "NO_WORKSPACE": "No workspace is open.",
+    "OUTSIDE_WORKSPACE": "This location is outside the workspace.",
+    "NOT_FOUND": "The file could not be found.",
+    "ALREADY_EXISTS": "A file with this name already exists.",
+    "CONFLICT": "The file was changed on disk.",
+    "INVALID_NAME": "This name is not valid.",
+    "IO_ERROR": "The file could not be read or written.",
+    "INVALID_FILE": "This file could not be opened: {{message}}",
+    "NEWER_VERSION": "This file was created by a newer version of the app."
+  },
+  "keys": {
+    "Click": "Click",
+    "DoubleClick": "Double-click",
+    "Drag": "Drag",
+    "Scroll": "Scroll",
+    "Hover": "Hover",
+    "Space": "Space",
+    "Escape": "Esc",
+    "Enter": "Return",
+    "hold": "hold {{key}}"
+  },
+  "shortcutGroups": {
+    "general": "General",
+    "file": "Files and folders",
+    "tabs": "Tabs",
+    "zoom": "Zoom and pan",
+    "selection": "Selection",
+    "arrange": "Arrange",
+    "edit": "Edit",
+    "text": "Text",
+    "tools": "Tools",
+    "diagram": "Diagram shapes",
+    "quickAdd": "Quick add",
+    "connectors": "Connectors",
+    "sticky": "Sticky notes",
+    "wireframe": "Wireframes",
+    "freehand": "Freehand",
+    "mindmap": "Mind maps",
+    "docs": "Docs",
+    "docsBlocks": "Collapsible blocks",
+    "docsTables": "Tables",
+    "markdown": "Markdown",
+    "folder": "Folder view"
+  },
+  "shortcutHelp": {
+    "extension": "Not in Whimsical"
+  },
+  "colors": {
+    "white": "White",
+    "smoke": "Smoke",
+    "gray": "Gray",
+    "slate": "Slate",
+    "purple": "Purple",
+    "violet": "Violet",
+    "blue": "Blue",
+    "green": "Green",
+    "darkGreen": "Dark green",
+    "yellow": "Yellow",
+    "orange": "Orange",
+    "red": "Red",
+    "crimson": "Crimson",
+    "pink": "Pink",
+    "brown": "Brown",
+    "custom": "Custom colour",
+    "addCustom": "Add custom colour"
+  },
+  "textSizes": {
+    "xs": "XS",
+    "s": "S",
+    "m": "M",
+    "l": "L",
+    "xl": "XL",
+    "xxl": "XXL"
+  },
+  "stub": {
+    "notImplemented": "{{name}} editor is not implemented yet."
+  }
+}

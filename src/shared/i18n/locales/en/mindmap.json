@@ -1,0 +1,104 @@
+{
+  "commands": {
+    "addRoot": "Mind map",
+    "addChild": "Add child",
+    "editNode": "Edit node text",
+    "addSiblingAbove": "Add sibling above",
+    "addParent": "Add parent",
+    "selectParent": "Select parent",
+    "navigateUp": "Navigate up",
+    "navigateDown": "Navigate down",
+    "navigateLeft": "Navigate left",
+    "navigateRight": "Navigate right",
+    "toggleCollapse": "Collapse / expand",
+    "collapse": "Collapse",
+    "expand": "Expand",
+    "collapseAll": "Collapse / expand all descendants",
+    "collapseSiblings": "Collapse / expand siblings",
+    "collapseLevel": "Collapse / expand level",
+    "deleteNode": "Delete node",
+    "duplicateNode": "Duplicate node",
+    "addIcon": "Add icon",
+    "addLink": "Add link",
+    "indent": "Increase indent",
+    "outdent": "Decrease indent",
+    "moveUp": "Move up among siblings",
+    "moveDown": "Move down among siblings",
+    "relayout": "Lay out mind map",
+    "pasteAsMindmap": "Paste as mind map",
+    "copyAsList": "Copy as bulleted list",
+    "editAddSibling": "Add sibling",
+    "editAddChild": "Add child",
+    "editAddSiblingAbove": "Add sibling above",
+    "editLineBreak": "Add line break",
+    "editStop": "Stop editing"
+  },
+  "contextBar": {
+    "horizontal": "Horizontal",
+    "vertical": "Vertical",
+    "curved": "Curved lines",
+    "elbow": "Straight lines",
+    "lineColor": "Line color",
+    "iconLeft": "Icon left",
+    "iconRight": "Icon right",
+    "color": "Color",
+    "branchColor": "Branch color",
+    "bold": "Bold",
+    "italic": "Italic",
+    "link": "Add link",
+    "icon": "Add icon",
+    "sidesBoth": "Branches on both sides",
+    "sidesRight": "All branches on the right",
+    "sidesLeft": "All branches on the left",
+    "sidesBottom": "All branches below",
+    "sidesTop": "All branches above"
+  },
+  "tooltips": {
+    "collapse": "Collapse",
+    "expand": "Expand",
+    "collapseAll": "Collapse all",
+    "expandAll": "Expand all",
+    "collapseSiblings": "Collapse siblings",
+    "expandSiblings": "Expand siblings",
+    "collapseLevel": "Collapse level",
+    "expandLevel": "Expand level",
+    "collapseHint": "Collapse (Opt: all levels, Shift: siblings, Opt+Shift: whole level)",
+    "expandHint": "Expand (Opt: all levels, Shift: siblings, Opt+Shift: whole level)"
+  },
+  "defaults": {
+    "root": "Central idea"
+  },
+  "handles": {
+    "addChild": "Add child",
+    "addSibling": "Add sibling",
+    "addBranch": {
+      "left": "Add branch on the left",
+      "right": "Add branch on the right",
+      "top": "Add branch above",
+      "bottom": "Add branch below"
+    }
+  },
+  "placeholders": {
+    "root": "Topic"
+  },
+  "iconPanel": {
+    "title": "Node icon",
+    "search": "Search icons",
+    "remove": "Remove icon",
+    "noResults": "No icons found"
+  },
+  "linkPanel": {
+    "title": "Node link",
+    "placeholder": "Paste or type a link",
+    "apply": "Apply",
+    "remove": "Remove link"
+  },
+  "notify": {
+    "nothingToPaste": "The clipboard holds no list to paste as a mind map",
+    "listCopied": "Copied as a bulleted list",
+    "copyFailed": "Could not copy to the clipboard"
+  },
+  "keywords": {
+    "addRoot": "mind map, mindmap, brainstorm, tree, branches, central idea"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "commands": {
+    "sticky": "",
+    "text": "",
+    "image": "",
+    "link": "",
+    "icon": "",
+    "section": "",
+    "table": "",
+    "codeBlock": "",
+    "distributeGrid": "",
+    "pasteAsStickies": ""
+  },
+  "keywords": {
+    "sticky": "",
+    "text": "",
+    "image": "",
+    "link": "",
+    "icon": "",
+    "section": "",
+    "table": "",
+    "codeBlock": ""
+  },
+  "textSize": {
+    "xs": "",
+    "s": "",
+    "m": "",
+    "l": "",
+    "xl": "",
+    "xxl": ""
+  },
+  "align": {
+    "left": "",
+    "center": "",
+    "right": ""
+  },
+  "contextBar": {
+    "color": "",
+    "textSize": "",
+    "textAlign": ""
+  },
+  "sticky": {
+    "placeholder": ""
+  },
+  "text": {
+    "placeholder": ""
+  },
+  "image": {
+    "pick": "",
+    "caption": "",
+    "showCaption": "",
+    "captionPlaceholder": "",
+    "alt": "",
+    "rotate": ""
+  },
+  "section": {
+    "defaultName": "",
+    "namePlaceholder": "",
+    "solid": "",
+    "outline": "",
+    "clip": "",
+    "rename": "",
+    "fill": ""
+  },
+  "table": {
+    "headerRow": "",
+    "striped": "",
+    "addRow": "",
+    "addColumn": "",
+    "removeRow": "",
+    "removeColumn": ""
+  },
+  "link": {
+    "placeholder": "",
+    "open": "",
+    "edit": "",
+    "card": "",
+    "compact": "",
+    "display": "",
+    "untitled": "",
+    "fileLinkTitle": ""
+  },
+  "code": {
+    "language": "",
+    "auto": "",
+    "placeholder": ""
+  },
+  "icon": {
+    "change": ""
+  },
+  "iconPicker": {
+    "search": "",
+    "noResults": "",
+    "title": ""
+  },
+  "notify": {
+    "imageImportFailed": "",
+    "nothingToPaste": "",
+    "clipboardDenied": "",
+    "linkOpenFailed": ""
+  }
+}
